@@ -1,23 +1,23 @@
 fun main() {
-    // Solicita ao usuário que informe três valores inteiros
-    print("Digite o primeiro valor: ")
+    // peça ao usuário que digite três valores inteiros
+    print("digita o primeiro valor: ")
     val valor1 = readLine()?.toIntOrNull()
 
-    print("Digite o segundo valor: ")
+    print("digita o segundo valor: ")
     val valor2 = readLine()?.toIntOrNull()
 
-    print("Digite o terceiro valor: ")
+    print("digita o terceiro valor: ")
     val valor3 = readLine()?.toIntOrNull()
 
-    // Verifica se os valores foram inseridos corretamente
+    // veja se os valores foram inseridos corretamente
     if (valor1 != null && valor2 != null && valor3 != null) {
-        // Encontra os dois maiores valores
+        // encontre os dois maiores valores
         val menor = minOf(valor1, valor2, valor3)
         val somaDosMaiores = (valor1 + valor2 + valor3) - menor
 
-        // Exibe o resultado da soma dos dois maiores valores
-        println("A soma dos dois maiores valores é: $somaDosMaiores")
+        // mostre o resultado da soma dos dois maiores valores
+        println("a soma dos dois maiores valores é: $somaDosMaiores")
     } else {
-        println("Por favor, insira apenas valores inteiros válidos.")
+        println("por favor, digite apenas valores inteiros válidos.")
     }
 }
