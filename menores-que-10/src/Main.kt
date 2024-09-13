@@ -18,7 +18,7 @@ fun main() {
     val soma = valores.sum()
     val media = soma / valores.size
 
-    // mostre a média e a mensagem de acordo com o resultado
+    // mostre a média e a mensagem com o resultado
     println("a média dos valores é: $media")
 
     if (media > 5) {
