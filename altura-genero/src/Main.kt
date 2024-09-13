@@ -19,7 +19,7 @@ fun main() {
         }
 
         // mostre o peso ideal
-        println("o peso ideal para a altura de $altura metros é: ${"%.2f".format(pesoIdeal)} kg")
+        println("o peso ideal para a altura de $altura metros é: (pesoIdeal)} kg")
     } else {
         println("entrada inválida. veja se colocou valores válidos.")
     }
